@@ -1,5 +1,10 @@
 /notes.txt
 
+
+python3.11 -m pip install pyperclip
+python3.11 -m pip install pyinputplus
+
+
 git add --all
 git commit -m "initial commit"
 git push
