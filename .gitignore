@@ -3,6 +3,12 @@
 
 python3.11 -m pip install pyperclip
 python3.11 -m pip install pyinputplus
+python3.11 -m pip install send2trash
+python3.11 -m pip install requests
+python3.11 -m pip install beautifulsoup4
+python3.11 -m pip install lxml
+python3.11 -m pip install selenium
+python3.11 -m pip install openpyxl==2.6.2
 
 
 git add --all
