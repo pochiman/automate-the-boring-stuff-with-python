@@ -6,7 +6,7 @@ HEIGHT = 20
 # Create a list of list for the cells:
 nextCells = []
 for x in range(WIDTH):
-    column = [] # Create a new column.
+    column = []  # Create a new column.
     for y in range(HEIGHT):
         if random.randint(0, 1) == 0:
             column.append('#')  # Add a living cell.
@@ -21,7 +21,7 @@ while True:  # Main program loop.
     # Print currentCells on the screen:
     for y in range(HEIGHT):
         for x in range(WIDTH):
-            print(currentCells[x][y], end='') # Print the # or space.
+            print(currentCells[x][y], end='')  # Print the # or space.
         print()  # Print a newline at the end of the row.
     
     # Calculate the next step's cells based on current step's cells:
@@ -63,4 +63,4 @@ while True:  # Main program loop.
             else:
                 # Everything else dies or stays dead:
                 nextCells[x][y] = ' '
-    time.sleep(1) # Add a 1-second pause to reduce flickering.
+    time.sleep(1)  # Add a 1-second pause to reduce flickering.
