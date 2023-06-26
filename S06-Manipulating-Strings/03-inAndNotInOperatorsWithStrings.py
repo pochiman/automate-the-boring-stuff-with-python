@@ -1,0 +1,5 @@
+'Hello' in 'Hello, World'
+'Hello' in 'Hello'
+'HELLO' in 'Hello, World'
+'' in 'spam'
+'cats' not in 'cats and dogs'
