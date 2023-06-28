@@ -18,3 +18,10 @@ wb.sheetnames
 del wb['Middle Sheet']
 del wb['Sheet1']
 wb.sheetnames
+
+# Writing Values to Cells
+import openpyxl
+wb = openpyxl.Workbook()
+sheet = wb['Sheet']
+sheet['A1'] = 'Hello, world!'  # Edit the cell's value.
+sheet['A1'].value
